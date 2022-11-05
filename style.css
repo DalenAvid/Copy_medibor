@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(238, 237, 237);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.call{
+    display: flex;
+    flex-direction: row;
+}
+.call a{
+    text-decoration: none;
+    color: gray;
+}
+.call a:hover{
+    
+    color: red;
+}
+.div2{
+    display: flex;
+    justify-content: space-around;
+}
+header ul li {
+    list-style: none;
+    display: inline-block;
+}
+header li {
+    padding: 1px 10px;
+}
+header li a{
+    text-decoration: none;
+    color: gray;
+}
+header li a:hover{
+    
+    color: red;
+}
+.header{
+    padding: 30px 0 ;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 10;
+    box-shadow: 2px 0 5px gray;
+}
+.header ul li{
+list-style: none;
+display: inline-block;
+}
+.header ul{
+    padding-top: 10px;
+}
+.header li {
+    padding: 1px 10px;
+}
+.header li a{
+    text-decoration: none;
+    color: gray;
+}
+.header li a:hover{
+    
+    color: red;
+}
+.enter{
+    display: flex;
+    flex-direction: row;
+}
+.enter a{
+text-decoration: none;
+color: rgb(21, 20, 20);
+}
+.enter a:hover{
+    color: red;
+}
+.enter p{
+padding-top: 10px;
+padding-right: 30px;
+}
+
+.enter button{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 5px;
+}
+/*---------*/
+
+main{
+    background-image: url('/img/fon.png');
+    background-repeat: no-repeat;
+    padding: 80px;
+    padding-left: 180px;
+    height: 81vh;
+}
+.info{
+    width: 330px;
+}
+.info button{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+}
+.info h1, h3{
+padding: 10px 0;
+}
+.flag>img{
+ position: relative;
+ right: -562px;
+ top: -255px;
+}
+
+/*----------*/
+.wrapper{
+    width: 75vw;
+    margin: 0 auto;
+}
+
+
+.text{
+    display: flex;
+    justify-content: space-between;
+}
+.text1{
+    width: 50vw;
+}
+.text1 h2{
+    padding: 20px 0;
+}
+.text2{
+    padding: 20px 0;
+}
+.text2 a{
+    text-decoration: none;
+    color: red;
+}
+.text2 a:hover{
+    
+    color: black;
+}
+
+/******-servises---*/
+.servises{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.favor{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    box-shadow: 0 0 1px black;
+    padding: 30px;
+    margin: 10px 0;
+}
+.favor img{
+ width: 150px;
+ margin-right: 15px;
+ padding-top: 15px;
+}
+.favor:hover{
+    box-shadow: 0 0 15px gray;
+}
+.favor p {
+    font-size: 14px;
+    color: red;
+}
+
+/*--------------------*/
+.medics{
+    display: flex;
+    justify-content: space-around;
+}
+.med{
+    background-color: rgb(236, 236, 241);
+    padding: 50px;
+    
+}
+.med-inner{
+    margin: 0 auto;
+    width: 80vw;
+}
+.med-text{
+    padding: 20px;
+    width: 50vw;
+}
+.med-text h2{
+    padding-bottom: 40px;
+}
+
+.medic-img img{
+    height: 350px;
+}
+.medic-text{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    transition: .5s;
+    padding: 10px;
+    text-align: center;
+}
+.medic-text button{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.medic-text:hover {
+    
+    transform: translateY(-20px);
+    transition: .5s;
+   
+    
+}
+
+button:hover{
+    
+    background-color: rgb(138, 38, 2);
+    transition: .5s;
+}
+.but a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius:50% ;
+    padding: 15px;
+    text-align: center;
+    transition: .5s;
+}
+.but{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 350px;
+}
+.but .a1{
+margin-left: 95px;
+}
+.but .a2{
+margin-right: 95px;
+}
+.but .a1{
+margin-left: 95px;
+}
+.but a:hover{
+    
+    color: white;
+    background-color: red;
+    transition: .5s;
+    
+}
+/*---------------*/
+.chat-box{
+    bottom: 20px;
+    z-index: 10;
+    position: fixed;
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 25px;
+    color: white;
+    margin: 5px;
+    border-radius: 50% ;
+    left: 10px;
+    transition: .2s;
+}
+
+.chat-box:hover{
+    background-image: url('/img/telephone.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+    transition: .1s;
+    color:transparent;
+}
